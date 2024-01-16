@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=egde">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Logo-Michifuza.ico">
+    <title>Mi Amor UwU</title>
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Marcela, el amor de mi vida UwU</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li><!--BIOGRAFIA CON IMAGENES / LETRAS EN NEGRITA-->
+                <li><a href="preferencias.html">Preferencias</a></li><!--LISTA DE ALGO O LISTA SALIDA DE LA BIOGRAFIA-->
+                <li><a class="active" href="multimedia.html">Multimedia</a></li><!--FOTOS, VIDEOS, AUDIOS-->
+                <li><a href="contactos.html">Contactos</a></li><!--DATOS-->
+            </ul>
+        </nav>
+    </header>
+
+    <div style="display: flex; justify-content: center;">
+        <video autoplay controls loop muted style="margin-right: 20px; margin-top: 20px;" width="250px">
+            <source src="assets/video/Ocurrencias.mp4" type="video/mp4">
+        </video>
+
+        <video autoplay controls loop muted style="margin-top: 20px;" width="770px">
+            <source src="assets/video/Mi Amorcito durmiendo.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="centrado">
+        <audio src="assets/audio/say-yes-to-heaven-lanadelrey.mp3" autoplay controls style="margin-top: 20px;"></audio>
+    </div>
+
+    <section class="centrado">
+        <div class="gallery" style="display: flex; flex-direction: column; align-items: center; margin: 20px">
+            <img src="assets/img/2.jpg" alt="Marcela_1" height="600px">
+            <div style="display: flex; justify-content: center; margin: 20px">Despues de bañarse UwU</div>
+        </div>
+        <div class="gallery" style="display: flex; flex-direction: column; align-items: center; margin: 20px">
+            <img src="assets/img/6.jpg" alt="Marcela_2" height="600px">
+            <div style="display: flex; justify-content: center; margin: 20px">Marcela es mas tierna que un peluche UwU</div>
+        </div>
+        <div class="gallery" style="display: flex; flex-direction: column; align-items: center; margin: 20px">
+            <img src="assets/img/11.jpg" alt="Marcela_11" height="600px">
+            <div style="display: flex; justify-content: center; margin: 20px">Marcela tomando awita UwU</div>
+        </div>
+        <div class="gallery" style="display: flex; flex-direction: column; align-items: center; margin: 20px">
+            <img src="assets/img/21_enojada.jpg" alt="Marcela_21" width="600px">
+            <div style="display: flex; justify-content: center; margin: 20px">Marcela emputada :C</div>
+        </div>
+    </section>
+
+    <section class="centrado">
+        <div class="gallery" style="display: flex; flex-direction: column; align-items: center; margin: 20px">
+            <img src="assets/img/23_pose.jpg" alt="Marcela_23" height="600px">
+            <div style="display: flex; justify-content: center; margin: 20px">Posando para Loid</div>
+        </div>
+        <div class="gallery" style="display: flex; flex-direction: column; align-items: center; margin: 20px">
+            <img src="assets/img/16.jpg" alt="Marcela_16" width="600px">
+            <div style="display: flex; justify-content: center; margin: 20px">Marcela dando un beso a Loid</div>
+        </div>
+        <div class="gallery" style="display: flex; flex-direction: column; align-items: center; margin: 20px">
+            <img src="assets/img/20.jpg" alt="Marcela_20" height="600px">
+            <div style="display: flex; justify-content: center; margin: 20px">Marcela tomando la mano a Loid</div>
+        </div>
+        <div class="gallery" style="display: flex; flex-direction: column; align-items: center; margin: 20px">
+            <img src="assets/img/5.jpg" alt="Marcela_5" width="600px">
+            <div style="display: flex; justify-content: center; margin: 20px">Marcela yendo con el outfit que le gusta a Loid</div>
+        </div>
+    </section>
+
+    <section class="centrado">
+        <div class="gallery">
+            <img src="assets/img/Extra_2.jpg" alt="Extra_2" width="600px">
+            <div style="display: flex; justify-content: center; margin: 20px">GRACIAS POR VER</div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2024</p>
+    </footer>
+
+</body>
+
+</html>
